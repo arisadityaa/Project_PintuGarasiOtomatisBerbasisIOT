@@ -111,7 +111,7 @@ void loop() {
     }
     else {
       String reply;
-      reply = (String)"Welcome " + msg.sender.username + (String)". Ketik /on untuk membuka pintu, /off untuk menutup pintu dan /status untuk mengecek apakah pintu terbuka atau tertutup.";
+      reply = (String)"Welcome " + msg.sender.username + (String)". Ketik /on untuk membuka pintu, /off untuk menutup pintu dan /status untuk mengecek apakah pintu terbuka atau tertutup. Created By Aris Aditya Nugraha";
       myBot.sendMessage(msg.sender.id, reply);
      }
   }
@@ -140,3 +140,7 @@ void loop() {
   }
     delay(500);
 }
+// Project Internet Of Thhings
+//I Made Aris Aditya Nugraha
+//1905551088
+//Teknologi Informasi, Fakultas Teknik, Universitas Udayana
